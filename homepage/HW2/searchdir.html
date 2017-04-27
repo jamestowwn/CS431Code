@@ -1,0 +1,24 @@
+<HTML>
+  <HEAD>
+    <TITLE>Search the Class Directory</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>Find a Classmate</H1>
+    <HR>
+
+    <FORM METHOD=POST ACTION="./classsearch.php">
+
+    <b>Please choose your desired search method (class id, last name, or first name) and your search value:</b>
+    <p>
+    <pre>
+    <select name="searchType">
+        <option value="cid">Class ID</option>
+        <option value="lname">Last Name</option>
+        <option value="fname">First Name</option>
+    </select>
+    <input SIZE=20 maxlength=50 NAME="searchVal" value="">
+    <HR>
+    <INPUT TYPE="submit" VALUE="Search the class list"> <INPUT TYPE="reset" VALUE="Reset Form">
+  </body>
+</html>
+

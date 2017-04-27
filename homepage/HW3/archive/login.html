@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Messenger Log In</title>
+  </head>
+  <body>
+    <h1>Log in to Messenger</h1>
+    <hr>
+
+    <form method=POST action="./login.php">
+    <b>Please enter your username and password</b>
+    <p>
+    <div>
+      <label for="username"><b>USERNAME: </b></label>
+      <input size="20" name="username" value>
+      <p>
+      <label for="psw"><b>PASSWORD: </b></label>
+      <input size="20" type="password" name="psw" value>
+      <p>
+      <font id="invalidUser" color="red">Invalid User</font>
+      <hr>
+      <input type="submit" name="submitbutton" value="Log In">
+      <input type="reset" value="Reset">
+      <p>
+      <a href="./register.php">Register for the site</a>
+    </div>
+  </body>
+</html>
